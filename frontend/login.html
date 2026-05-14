@@ -133,17 +133,18 @@
               id="togglePassword"
               class="absolute right-4 top-[44px] text-gray-400 hover:text-indigo-600"
             >
-              <i data-lucide="eye"></i>
+              <i id="eyeIcon" data-lucide="eye"></i>
             </button>
           </div>
 
           <!-- Submit -->
           <button
             type="submit"
+            id="loginBtn"
             class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-4 rounded-xl transition active:scale-95 flex items-center justify-center gap-2"
           >
             <i data-lucide="log-in"></i>
-            Sign In
+            <span id="btnText">Sign In</span>
           </button>
 
           <!-- Divider -->
@@ -189,6 +190,9 @@
 
   <!-- Theme Script -->
   <script src="js/theme.js"></script>
+  
+  <!-- Auth Script -->
+  <script src="js/login.js"></script>
 
   <!-- Animations -->
   <script>
